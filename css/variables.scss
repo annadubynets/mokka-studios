@@ -1,0 +1,187 @@
+$black: #000000;
+$darkgrey: #303030;
+$grey: #979797;
+$lightskyblue: #AEC9FF;
+$aliceblue: #F4F8FF;
+$gold: #FFCB2F;
+$cornflowerblue: #5D95F3;
+$blue: #005BF3;
+$red: #FF3434;
+$green: #53D86A;
+$white: #FFFFFF;
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+    color: $black;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 38px;
+    color: $black;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 28px;
+    color: $blue;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 24px;
+    color: $blue;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(48, 48, 48, 0.8);
+}
+
+p {
+    font-weight: normal;
+    font-size: 20px;
+    color: $darkgrey;
+    margin-bottom: 0;
+}
+
+.h-36 {
+    height: 36%;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-300 {
+    margin-top: 300px!important;
+}
+
+.pt-160 {
+    padding-top: 160px;
+}
+
+.pb-65 {
+    padding-bottom: 65px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.pb-160 {
+    padding-bottom: 160px;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-primary {
+    color: $blue!important;
+}
+
+.text-primary-opacity {
+    color: rgba(0, 91, 243, 0.5);
+}
+
+.text-dark {
+    color: $darkgrey!important;
+}
+
+.font-size-10 {
+    font-size: 10px!important;
+}
+
+.font-size-12 {
+    font-size: 12px!important;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.font-size-28 {
+    font-size: 28px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-36 {
+    font-size: 36px!important;
+}
+
+.font-size-64 {
+    font-size: 64px;
+}
+
+.bg-white {
+    background-color: #FCFDFF!important;
+}
+
+.bg-primary {
+    background-color: $blue!important;
+}
+
+.bg-info {
+    background-color: $aliceblue!important;
+}
+
+.bg-dark {
+    background-color: $black!important;
+}
+
+.border-primary {
+    border: 1px solid $lightskyblue!important;
+}
+
+.border-blue {
+    border: 1px solid $blue!important;
+}
+
+.shadow-sm {
+    box-shadow: 0px 35px 35px rgba(103, 123, 158, 0.05)!important;
+}
+
+.shadow {
+    box-shadow: 0px 15px 35px rgba(0, 95, 255, 0.25)!important;
+}
+
+.rounded-1 {
+    border-radius: 4px;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
