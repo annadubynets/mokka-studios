@@ -379,9 +379,10 @@ footer {
 
 .tech-carousel-dots .owl-dot.active span,
 .tech-carousel-dots .owl-dot:hover span {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
     background-color: $black;
+    border: 1px solid $black;
 }
 
 @media (max-width: 1400px) {
