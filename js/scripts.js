@@ -19,3 +19,34 @@ if ($('.owl-carousel').length > 0) {
         }
     })
 }
+
+document.getElementById("menu-icon").addEventListener('click',
+
+    function() {
+        var allClasses = this.classList;
+        var l = allClasses.length;
+        var className = "btn-menu-active";
+
+        while (l--) {
+            if (allClasses[l] == className) {
+                allClasses.remove(allClasses[l]);
+                // hide menu 
+                showMenu(false);
+                return;
+            }
+            allClasses.add(className);
+            // show menu
+            showMenu(true);
+        }
+    });
+
+function showMenu(modeBool) {
+
+    var modeStr = function(m) {
+        return m ? "show" : "hide";
+    }
+
+    var menuContainer = document.getElementById("menu-container");
+    menuContainer.classList.remove(modeStr(!modeBool));
+    menuContainer.classList.add(modeStr(modeBool));
+}

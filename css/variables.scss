@@ -1,13 +1,7 @@
 $black: #000000;
 $darkgrey: #303030;
 $grey: #979797;
-$lightskyblue: #AEC9FF;
-$aliceblue: #F4F8FF;
-$gold: #FFCB2F;
-$cornflowerblue: #5D95F3;
-$blue: #005BF3;
-$red: #FF3434;
-$green: #53D86A;
+$lavenderblush: #E5D9F7;
 $white: #FFFFFF;
 h1 {
     font-weight: bold;
@@ -24,13 +18,13 @@ h2 {
 h3 {
     font-weight: 600;
     font-size: 28px;
-    color: $blue;
+    color: $black;
 }
 
 h4 {
     font-weight: normal;
     font-size: 24px;
-    color: $blue;
+    color: $black;
 }
 
 h5 {
@@ -66,12 +60,20 @@ p {
     padding-top: 160px;
 }
 
+.pt-180 {
+    padding-top: 180px;
+}
+
 .pb-65 {
     padding-bottom: 65px;
 }
 
 .pb-70 {
     padding-bottom: 70px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
 }
 
 .mb-60 {
@@ -86,16 +88,16 @@ p {
     padding-bottom: 160px;
 }
 
+.pb-260 {
+    padding-bottom: 260px;
+}
+
+.py-70 {
+    padding: 70px 0;
+}
+
 .text-white {
     color: $white;
-}
-
-.text-primary {
-    color: $blue!important;
-}
-
-.text-primary-opacity {
-    color: rgba(0, 91, 243, 0.5);
 }
 
 .text-dark {
@@ -134,8 +136,8 @@ p {
     font-size: 28px;
 }
 
-.font-size-30 {
-    font-size: 30px;
+.font-size-32 {
+    font-size: 32px;
 }
 
 .font-size-36 {
@@ -150,28 +152,16 @@ p {
     background-color: #FCFDFF!important;
 }
 
-.bg-primary {
-    background-color: $blue!important;
-}
-
-.bg-info {
-    background-color: $aliceblue!important;
-}
-
 .bg-dark {
     background-color: $black!important;
 }
 
-.border-primary {
-    border: 1px solid $lightskyblue!important;
-}
-
-.border-blue {
-    border: 1px solid $blue!important;
+.bg-pink {
+    background-color: $lavenderblush !important;
 }
 
 .shadow-sm {
-    box-shadow: 0px 35px 35px rgba(103, 123, 158, 0.05)!important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)!important;
 }
 
 .shadow {
@@ -179,7 +169,7 @@ p {
 }
 
 .rounded-1 {
-    border-radius: 4px;
+    border-radius: 33px!important;
 }
 
 .z-index-1 {
