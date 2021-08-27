@@ -4,13 +4,15 @@ if ($('.owl-carousel').length > 0) {
         margin: 10,
         responsiveClass: true,
         autoplay: false,
+        dotsContainer: '.tech-carousel-dots',
         responsive: {
             0: {
-                items: 1,
+                items: 2,
+                stagePadding: 20,
                 nav: false
             },
             768: {
-                items: 3,
+                items: 8,
                 nav: false,
                 loop: false
             }

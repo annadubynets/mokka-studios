@@ -561,27 +561,28 @@ marquee {
     }
 }
 
-.owl-theme .owl-dots {
+.tech-carousel-dots {
     display: flex;
-    justify-content: center;
+    top: 0;
+    right: 0;
     .owl-dot span {
-        width: 10px;
-        height: 10px;
-        background-color: $lightskyblue;
+        width: 17px;
+        height: 17px;
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 0px 3px;
     }
     .owl-dot.active span,
-    .owl-dots .owl-dot:hover span {
-        width: 16px;
-        height: 16px;
-        background-color: $blue;
+    .owl-dot:hover span {
+        background-color: $black;
     }
 }
 
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-    width: 16px;
-    height: 16px;
-    background-color: $blue;
+.tech-carousel-dots .owl-dot.active span,
+.tech-carousel-dots .owl-dot:hover span {
+    width: 18px;
+    height: 18px;
+    background-color: $black;
 }
 
 @media (max-width: 1400px) {
