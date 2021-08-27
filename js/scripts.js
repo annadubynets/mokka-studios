@@ -8,7 +8,7 @@ if ($('.owl-carousel').length > 0) {
         responsive: {
             0: {
                 items: 2,
-                stagePadding: 20,
+                stagePadding: 40,
                 nav: false
             },
             768: {
