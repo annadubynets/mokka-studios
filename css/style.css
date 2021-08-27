@@ -331,7 +331,7 @@ ul {
   bottom: 0;
   box-sizing: border-box;
   min-width: 100%;
-  background: linear-gradient(82.56deg, #FBCACD 1.04%, rgba(238, 211, 237, 0.5985) 60.57%, rgba(232, 216, 254, 0.9) 93.64%);
+  background: linear-gradient(57.58deg, #FBCACD -10.97%, rgba(224, 204, 223, 0.5985) 57.52%, #E8D8FE 94.76%);
   text-align: center;
   font-weight: normal;
   font-size: 25px;
@@ -402,12 +402,11 @@ ul {
 }
 .btn-outline-dark:hover {
   color: #000000;
-  background: rgba(0, 0, 0, 0.08);
+  background: #F3F3F3;
 }
 .btn-outline-dark:focus {
   color: #000000;
-  background: rgba(0, 0, 0, 0.08);
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: #F3F3F3;
 }
 
 .hero {
@@ -468,7 +467,7 @@ ul {
 }
 
 .bg-gradient {
-  background: linear-gradient(82.56deg, #FBCACD 1.04%, rgba(238, 211, 237, 0.5985) 60.57%, rgba(232, 216, 254, 0.9) 93.64%) !important;
+  background: linear-gradient(57.58deg, #FBCACD -10.97%, rgba(224, 204, 223, 0.5985) 57.52%, #E8D8FE 94.76%) !important;
 }
 
 .decor-large-img {
