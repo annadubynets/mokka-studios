@@ -408,6 +408,24 @@ ul {
   box-shadow: inset 0px 15px 35px rgba(0, 0, 0, 0.35);
 }
 
+.btn-white {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 35px;
+  padding: 22px 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+}
+.btn-white:hover {
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.25);
+}
+.btn-white:focus {
+  box-shadow: inset 0px 15px 35px rgba(0, 0, 0, 0.35);
+}
+
 .btn-outline-dark {
   color: #000000;
   background-color: #FFFFFF;
@@ -516,10 +534,14 @@ footer ul li {
 footer ul li a {
   font-weight: normal;
   font-size: 18px;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer a {
+  color: rgba(255, 255, 255, 0.5);
 }
 footer p {
   font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .tech-carousel-dots {
