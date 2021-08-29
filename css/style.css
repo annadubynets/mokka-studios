@@ -591,6 +591,11 @@ footer p {
   .discover .card {
     padding: 20px;
   }
+
+  .rectangle-style {
+    width: 87px;
+    height: 87px;
+  }
 }
 @media (max-width: 768px) {
   h1 {
