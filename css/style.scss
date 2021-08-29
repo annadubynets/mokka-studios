@@ -76,6 +76,9 @@ a {
 
 a {
     text-decoration: none;
+    &:hover {
+        color: #F5F2FC;
+    }
 }
 
 ul {
@@ -177,6 +180,9 @@ ul {
         transition-duration: .5s;
         &:focus {
             opacity: 1;
+        }
+        &:hover {
+            color: rgba(0, 0, 0, 0.5)
         }
     }
     li {

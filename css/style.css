@@ -253,6 +253,9 @@ a {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: #F5F2FC;
+}
 
 ul {
   list-style: none;
@@ -347,6 +350,9 @@ ul {
 }
 #menu-container a:focus {
   opacity: 1;
+}
+#menu-container a:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
 #menu-container li {
   display: inline;
