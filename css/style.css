@@ -603,7 +603,7 @@ footer p {
   }
 
   .btn-dark {
-    padding: 31px 42px;
+    padding: 24px 42px;
   }
 
   .discover .card {
@@ -700,6 +700,10 @@ footer p {
   }
   .card .card-text {
     font-size: 12px;
+  }
+
+  .btn-white {
+    padding: 17px 23px;
   }
 
   .tech-carousel-dots {
