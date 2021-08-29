@@ -40,8 +40,12 @@ p {
   margin-bottom: 0;
 }
 
+.w-36 {
+  width: 36px;
+}
+
 .h-36 {
-  height: 36%;
+  height: 36px;
 }
 
 .mt-150 {
@@ -439,6 +443,10 @@ ul {
 .btn-outline-dark:focus {
   color: #000000;
   background: #F3F3F3;
+}
+
+.dropdown .btn {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .hero {

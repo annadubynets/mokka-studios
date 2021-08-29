@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?lsyaix');
-    src: url('../fonts/icomoon.eot?lsyaix#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?lsyaix') format('truetype'), url('../fonts/icomoon.woff?lsyaix') format('woff'), url('../fonts/icomoon.svg?lsyaix#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?1msyta');
+    src: url('../fonts/icomoon.eot?1msyta#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?1msyta') format('truetype'), url('../fonts/icomoon.woff?1msyta') format('woff'), url('../fonts/icomoon.svg?1msyta#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -40,70 +40,58 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-close:before {
-    content: "\e90d";
-}
-
-.icon-long-arrow-right:before {
-    content: "\e90c";
+.icon-facebook:before {
+    content: "\e900";
     color: #fff;
 }
 
-.icon-menu:before {
-    content: "\e919";
-}
-
-.icon-navbar-user:before {
-    content: "\e900";
-    color: rgba(59, 59, 59, 1);
-}
-
-.icon-search:before {
+.icon-instagram:before {
     content: "\e901";
+    color: #fff;
 }
 
-.icon-arrow-down:before {
-    content: "\e902";
-    color: #005bf3;
-}
-
-.icon-arrow:before {
+.icon-linkedin:before {
     content: "\e903";
-    color: #005bf3;
+    color: #fff;
 }
 
-.icon-check:before {
-    content: "\e904";
-    color: #53d86a;
-}
-
-.icon-edit:before {
+.icon-arrow-next:before {
     content: "\e905";
-    color: #005bf3;
-}
-
-.icon-email:before {
-    content: "\e906";
-}
-
-.icon-settings:before {
-    content: "\e907";
-    color: #005bf3;
-}
-
-.icon-phone:before {
-    content: "\e908";
 }
 
 .icon-location:before {
+    content: "\e907";
+}
+
+.icon-mail:before {
+    content: "\e908";
+}
+
+.icon-messenger:before {
     content: "\e909";
 }
 
-.icon-world-wide-web:before {
+.icon-phone:before {
     content: "\e90a";
 }
 
-.icon-user:before {
-    content: "\e90b";
-    color: #005bf3;
+.icon-whatsapp:before {
+    content: "\e90c";
+}
+
+.icon-twitter:before {
+    content: "\e90d";
+    color: #fff;
+}
+
+.icon-telegram:before {
+    content: "\e90e";
+}
+
+.icon-skype:before {
+    content: "\e906";
+}
+
+.icon-sphere:before {
+    content: "\e9c9";
 }
