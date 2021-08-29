@@ -72,6 +72,9 @@ a {
             }
         }
     }
+    &.fixed-top.scrolled {
+        background-color: $white!important;
+    }
 }
 
 a {
