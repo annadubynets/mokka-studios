@@ -249,6 +249,9 @@ a {
     margin-bottom: auto;
   }
 }
+.navbar.fixed-top.scrolled {
+  background-color: #FFFFFF !important;
+}
 
 a {
   text-decoration: none;
