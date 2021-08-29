@@ -15,18 +15,6 @@ h2 {
     color: $black;
 }
 
-h3 {
-    font-weight: 600;
-    font-size: 28px;
-    color: $black;
-}
-
-h4 {
-    font-weight: normal;
-    font-size: 24px;
-    color: $black;
-}
-
 h5 {
     font-weight: normal;
     font-size: 22px;
@@ -35,7 +23,8 @@ h5 {
 
 p {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 30px;
     color: $darkgrey;
     margin-bottom: 0;
 }
@@ -48,44 +37,24 @@ p {
     height: 36px;
 }
 
-.mt-150 {
-    margin-top: 150px;
-}
-
-.mt-180 {
-    margin-top: 180px;
-}
-
-.mt-300 {
-    margin-top: 300px!important;
-}
-
-.pt-160 {
-    padding-top: 160px;
+.pt-80 {
+    padding-top: 80px;
 }
 
 .pt-180 {
     padding-top: 180px;
 }
 
+.pt-200 {
+    padding-top: 200px;
+}
+
 .pb-65 {
     padding-bottom: 65px;
 }
 
-.pb-70 {
-    padding-bottom: 70px;
-}
-
 .pb-80 {
     padding-bottom: 80px;
-}
-
-.mb-60 {
-    margin-bottom: 60px;
-}
-
-.pb-120 {
-    padding-bottom: 120px;
 }
 
 .pb-160 {
@@ -98,6 +67,14 @@ p {
 
 .py-70 {
     padding: 70px 0;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
 }
 
 .text-white {
@@ -116,40 +93,16 @@ p {
     font-size: 12px!important;
 }
 
-.font-size-14 {
-    font-size: 14px;
-}
-
-.font-size-16 {
-    font-size: 16px;
-}
-
 .font-size-18 {
     font-size: 18px;
-}
-
-.font-size-20 {
-    font-size: 20px;
 }
 
 .font-size-24 {
     font-size: 24px;
 }
 
-.font-size-28 {
-    font-size: 28px;
-}
-
 .font-size-32 {
     font-size: 32px;
-}
-
-.font-size-36 {
-    font-size: 36px!important;
-}
-
-.font-size-64 {
-    font-size: 64px;
 }
 
 .bg-white {
@@ -168,14 +121,6 @@ p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)!important;
 }
 
-.shadow {
-    box-shadow: 0px 15px 35px rgba(0, 95, 255, 0.25)!important;
-}
-
 .rounded-1 {
     border-radius: 33px!important;
-}
-
-.z-index-1 {
-    z-index: 1;
 }
