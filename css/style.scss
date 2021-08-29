@@ -276,11 +276,16 @@ ul {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.hero {
+.hero-image {
     background: url('../images/main.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+    background-size: cover;
+    background-position: top left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60vw;
 }
 
 .img-style {
@@ -440,6 +445,16 @@ footer {
     .discover .card {
         padding: 20px;
     }
+    .hero-image {
+        background: url('../images/main-middle.png');
+        background-repeat: no-repeat;
+    }
+    .pt-180 {
+        padding-top: 230px;
+    }
+    .pb-260 {
+        padding-bottom: 80px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -495,6 +510,7 @@ footer {
         padding: 10px 0;
     }
     .card {
+        padding: 30px;
         .card-title {
             font-size: 14px;
         }
@@ -524,5 +540,20 @@ footer {
     .decor-small-img {
         width: 45%;
         right: 0;
+    }
+    .hero-image {
+        background: url('../images/main-mobile.png');
+        background-repeat: no-repeat;
+    }
+    .pt-180 {
+        padding-top: 280px;
+    }
+}
+
+@media (max-width: 414px) {
+    .hero-image {
+        background: url('../images/main-mobile.png');
+        background-repeat: no-repeat;
+        width: 88vw;
     }
 }
