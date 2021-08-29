@@ -577,6 +577,16 @@ footer p {
   border: 1px solid #000000;
 }
 
+@media (max-width: 1200px) {
+  .rectangle-style {
+    width: 87px;
+    height: 87px;
+  }
+
+  .font-size-32 {
+    font-size: 22px;
+  }
+}
 @media (max-width: 992px) {
   .decor-large-img {
     width: 152px;
@@ -593,11 +603,6 @@ footer p {
 
   .discover .card {
     padding: 20px;
-  }
-
-  .rectangle-style {
-    width: 87px;
-    height: 87px;
   }
 }
 @media (max-width: 768px) {
