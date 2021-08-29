@@ -182,6 +182,7 @@ p {
 
 body {
   font-family: "Lato";
+  background-color: rgba(255, 255, 255, 0.34);
 }
 
 a {
@@ -195,22 +196,6 @@ a {
   font-size: 18px;
   color: #000000;
   padding: 0 12px;
-}
-
-.navbar-toggler:focus {
-  box-shadow: none;
-}
-.navbar-toggler .toggler-expanded {
-  display: block;
-}
-.navbar-toggler .toggler-collapsed {
-  display: none;
-}
-.navbar-toggler.collapsed .toggler-expanded {
-  display: none;
-}
-.navbar-toggler.collapsed .toggler-collapsed {
-  display: block;
 }
 
 .navbar {
@@ -536,9 +521,6 @@ footer ul {
   padding-left: 0;
   margin-bottom: 0;
 }
-footer ul li {
-  display: inline;
-}
 footer ul li a {
   font-weight: normal;
   font-size: 18px;
@@ -586,6 +568,24 @@ footer p {
   border: 1px solid #000000;
 }
 
+@media (max-width: 992px) {
+  .decor-large-img {
+    width: 152px;
+    top: 205px;
+  }
+
+  .decor-small-img {
+    width: 104px;
+  }
+
+  .btn-dark {
+    padding: 31px 42px;
+  }
+
+  .discover .card {
+    padding: 20px;
+  }
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 54px !important;
@@ -615,12 +615,20 @@ footer p {
     font-size: 18px;
   }
 
+  .pb-65 {
+    padding-bottom: 40px;
+  }
+
   .pb-68 {
     padding-bottom: 48px;
   }
 
   .pb-70 {
     padding-bottom: 24px;
+  }
+
+  .pb-80 {
+    padding-bottom: 40px;
   }
 
   .pb-120 {
@@ -658,14 +666,6 @@ footer p {
     display: none;
   }
 
-  .decor-large-img {
-    width: 152px;
-  }
-
-  .decor-small-img {
-    width: 104px;
-  }
-
   footer {
     padding: 30px 0;
   }
@@ -674,6 +674,12 @@ footer p {
   }
   footer p {
     font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .decor-small-img {
+    width: 45%;
+    right: 0;
   }
 }
 
