@@ -11,6 +11,10 @@ body {
 
 a {
     text-decoration: none;
+    color: $black;
+    &:hover {
+        color: rgba(0, 0, 0, 0.5)!important;
+    }
 }
 
 .navbar-light .navbar-nav {
@@ -77,13 +81,6 @@ a {
     }
 }
 
-a {
-    text-decoration: none;
-    &:hover {
-        color: #F5F2FC;
-    }
-}
-
 ul {
     list-style: none;
 }
@@ -127,19 +124,26 @@ ul {
     }
 }
 
+.btn-menu-active span {
+    top: 48%;
+}
+
 @media (max-width: 768px) {
     .btn-menu {
         width: 50px;
         height: 50px;
         border-radius: 12px;
         span {
-            top: 55%;
+            top: 58%;
             &,
             &:before,
             &:after {
                 height: 3px;
             }
         }
+    }
+    .btn-menu-active span {
+        top: 50%;
     }
 }
 
@@ -621,7 +625,10 @@ iframe {
     h1 {
         font-size: 54px!important;
     }
-    h2 {
+    h3 {
+        font-size: 36px;
+    }
+    h3 {
         font-size: 30px;
     }
     h5 {
