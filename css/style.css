@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "./owl.carousel.min.css";
 @import "./owl.theme.default.min.css";
 @import "./bootstrap.min.css";
@@ -97,6 +98,10 @@ p {
   font-size: 18px;
 }
 
+.font-size-20 {
+  font-size: 20px;
+}
+
 .font-size-24 {
   font-size: 24px;
 }
@@ -123,6 +128,18 @@ p {
 
 .rounded-1 {
   border-radius: 33px !important;
+}
+
+.rounded-2 {
+  border-radius: 40px !important;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.border-end {
+  border-right: 1px dashed rgba(0, 0, 0, 0.5) !important;
 }
 
 body {
@@ -384,10 +401,6 @@ ul {
   background: #F3F3F3;
 }
 
-.dropdown .btn {
-  color: rgba(255, 255, 255, 0.8);
-}
-
 .hero-image {
   background: url("../images/main.png");
   background-repeat: no-repeat;
@@ -527,6 +540,154 @@ footer p {
   border: 1px solid #000000;
 }
 
+.form-control {
+  font-size: 18px;
+  color: #303030;
+  background: #FFFFFF;
+  border: 1.5px solid rgba(35, 35, 35, 0.25);
+  border-radius: 18px;
+  padding: 24px 30px;
+}
+.form-control::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.input-group-text {
+  font-size: 18px;
+  color: #303030;
+  background: #FFFFFF;
+  border: 1.5px solid rgba(35, 35, 35, 0.25);
+  border-radius: 18px;
+  padding: 24px 30px;
+  border-right: 0;
+}
+
+.dropdown .btn {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+iframe {
+  right: 0;
+  width: 88%;
+  min-height: 700px;
+}
+
+.iframe-wrapper {
+  min-height: 700px;
+}
+
+.contact-form .dropdown-toggle {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+  border: 1.5px solid rgba(35, 35, 35, 0.25);
+  padding: 24px 30px;
+  border-radius: 18px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-left: 0;
+}
+.contact-form .dropdown-toggle::after {
+  font-family: "icomoon";
+  content: "";
+  font-size: 10px;
+  border: 0;
+}
+.contact-form .dropdown-menu {
+  border: 1.5px solid rgba(35, 35, 35, 0.25) !important;
+  border-radius: 16px;
+}
+.contact-form .chose-attachment-file-btn:hover {
+  color: #303030;
+}
+
+.checkbox .form-check-input {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.checkbox {
+  padding-left: 30px;
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.checkbox input {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+.checkbox input:checked + label::before {
+  border-color: #000000;
+}
+
+.checkbox input:checked + label::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 2px;
+  top: 4px;
+  margin-left: -30px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.checkbox label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #616060;
+  text-shadow: 0px 3px 6px rgba(255, 255, 255, 0.56);
+  display: inline-block;
+  position: relative;
+  padding-left: 10px;
+}
+
+.checkbox label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  top: 2px;
+  margin-left: -30px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.checkbox.disabled label {
+  color: #000000;
+}
+
+.checkbox.disabled label::before {
+  opacity: 0.54;
+}
+
+.checkbox input:checked + label::before {
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+}
+
+.checkbox input:checked + label::after {
+  background: url("../images/check.svg");
+  background-repeat: no-repeat;
+  top: 6px;
+  left: 3px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.checkbox label::before {
+  border-radius: 8px;
+}
+
 @media (max-width: 1200px) {
   .rectangle-style {
     width: 87px;
@@ -571,6 +732,17 @@ footer p {
   #menu-container li {
     margin: 25px 0;
   }
+
+  iframe {
+    right: 0;
+    left: 0;
+    top: 220px;
+    width: 100%;
+  }
+
+  .iframe-wrapper {
+    min-height: 410px;
+  }
 }
 @media (max-width: 768px) {
   h1 {
@@ -587,6 +759,10 @@ footer p {
 
   p {
     font-size: 14px;
+  }
+
+  .font-size-20 {
+    font-size: 15px;
   }
 
   .pt-80 {
@@ -638,6 +814,23 @@ footer p {
   .container-fluid-mobile {
     max-width: auto;
     padding: 0;
+  }
+
+  .contact-form .dropdown-toggle {
+    font-size: 14px;
+  }
+
+  .input-group-text {
+    font-size: 14px;
+  }
+
+  .form-control {
+    font-size: 14px;
+    padding: 18px 23px;
+  }
+
+  .checkbox label {
+    font-size: 14px;
   }
 
   footer {

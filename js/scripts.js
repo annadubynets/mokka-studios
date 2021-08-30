@@ -51,9 +51,24 @@ function showMenu(modeBool) {
     menuContainer.classList.add(modeStr(modeBool));
 }
 
-$(function () {
-    $(document).scroll(function () {
+$(function() {
+    $(document).scroll(function() {
         var $nav = $(".navbar.fixed-top");
         $nav.toggleClass('scrolled', $(this).scrollTop() > 0);
     });
 });
+
+/**
+ * File picker
+ */
+
+$(function() {
+    $('#attachment-file-input').on('change', function(e) {
+        $('.attachment-file-name').text(this.files[0].name)
+    });
+
+    $('.chose-attachment-file-btn').on('click', function(e) {
+        e.preventDefault();
+        $("#attachment-file-input").click();
+    })
+})
