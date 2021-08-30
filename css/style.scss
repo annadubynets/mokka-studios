@@ -342,6 +342,12 @@ ul {
     }
 }
 
+.blog {
+    .card {
+        padding: 40px;
+    }
+}
+
 .bg-gradient {
     background: linear-gradient(57.58deg, #FBCACD -10.97%, rgba(224, 204, 223, 0.5985) 57.52%, #E8D8FE 94.76%)!important;
 }
@@ -579,6 +585,40 @@ iframe {
     border-radius: 8px;
 }
 
+.nav-pills {
+    .nav-link {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: $black;
+    background-color: $white;
+    box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.pagination {
+    float: right;
+    .page-link {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        border: 0;
+        margin: 10px;
+        &:active {
+            color: $black;
+            background-color: transparent!important;
+        }
+        &:focus {
+            box-shadow: none;
+            background-color: transparent!important;
+        }
+    }
+}
+
 @media (max-width: 1200px) {
     .rectangle-style {
         width: 87px;
@@ -609,6 +649,9 @@ iframe {
     }
     .pt-180 {
         padding-top: 230px;
+    }
+    .pb-200 {
+        padding-bottom: 100px;
     }
     .pb-260 {
         padding-bottom: 80px;

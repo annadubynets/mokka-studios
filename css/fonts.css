@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?n4ocvn');
-    src: url('../fonts/icomoon.eot?n4ocvn#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?n4ocvn') format('truetype'), url('../fonts/icomoon.woff?n4ocvn') format('woff'), url('../fonts/icomoon.svg?n4ocvn#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?cm9dz0');
+    src: url('../fonts/icomoon.eot?cm9dz0#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?cm9dz0') format('truetype'), url('../fonts/icomoon.woff?cm9dz0') format('woff'), url('../fonts/icomoon.svg?cm9dz0#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -38,6 +38,14 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-next:before {
+    content: "\e911";
+}
+
+.icon-prev:before {
+    content: "\e910";
 }
 
 .icon-arrow-down:before {
@@ -98,6 +106,10 @@
 
 .icon-skype:before {
     content: "\e906";
+}
+
+.icon-time:before {
+    content: "\e90f";
 }
 
 .icon-file:before {
