@@ -80,6 +80,10 @@ p {
   padding-bottom: 260px;
 }
 
+.pb-340 {
+  padding-bottom: 340px;
+}
+
 .py-70 {
   padding: 70px 0;
 }
@@ -750,6 +754,10 @@ iframe {
 
   .pb-260 {
     padding-bottom: 80px;
+  }
+
+  .pb-340 {
+    padding-bottom: 100px;
   }
 
   #menu-container li {
