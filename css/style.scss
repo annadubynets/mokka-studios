@@ -320,6 +320,18 @@ ul {
     width: 50vw;
 }
 
+.web-development-image {
+    background: url('../images/web-development-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50vw;
+}
+
 .team-user-bg {
     background: linear-gradient(141.75deg, #FDEAEB 2.75%, rgba(245, 237, 248, 0.5) 46.82%, #F2EFFE 95.21%);
 }
@@ -396,7 +408,7 @@ ul {
         }
         .card-footer {
             position: absolute;
-            padding: 80px 30px;
+            padding: 60px 30px;
             background-color: transparent;
             border: 0;
             bottom: 0;
@@ -609,7 +621,6 @@ iframe {
     font-size: 18px;
     font-weight: 400;
     color: #616060;
-    text-shadow: 0px 3px 6px rgb(255 255 255 / 56%);
     display: inline-block;
     position: relative;
     padding-left: 10px;
@@ -643,9 +654,12 @@ iframe {
 }
 
 .checkbox input:checked+label::after {
-    background: url('../images/check.svg');
-    background-repeat: no-repeat;
-    top: 6px;
+    font-family: 'icomoon';
+    content: "\e904";
+    font-size: 12px;
+    color: $black;
+    background: none;
+    top: 4px;
     left: 3px;
     border-color: transparent;
     background-color: transparent;
@@ -692,20 +706,6 @@ iframe {
 .number-description {
     font-size: 96px;
     line-height: 115px;
-}
-
-​.slider {
-    position: absolute;
-    width: 100%;
-    top: calc(50% - #{$img-h * $ratio / 2});
-    overflow: hidden;
-    .slider-row {
-        width: $img-w * $ratio;
-        height: $img-h * $ratio;
-        background-image: url('../images/services-image.png');
-        background-size: $img-w * $ratio $img-h * $ratio;
-        animation: slide $speed linear infinite;
-    }
 }
 
 @media (min-width: 1600px) {

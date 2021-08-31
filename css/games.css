@@ -1114,5 +1114,161 @@ iframe {
     width: 88vw;
   }
 }
+body {
+  font-family: "Raleway";
+  background: #1B1B1B;
+}
 
-/*# sourceMappingURL=style.css.map */
+h1 {
+  color: #FFFFFF;
+}
+
+h3 {
+  color: #FFFFFF;
+}
+
+h4 {
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+h5 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.01em;
+}
+
+.text-light {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.bg-dark {
+  background-color: #171717 !important;
+}
+
+.border {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+.hero {
+  background: url("../images/games/main-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #7879F1 !important;
+  border: 0;
+  padding: 26px 49px;
+}
+
+.btn-secondary {
+  color: #FFFFFF;
+  background-color: #252525 !important;
+  letter-spacing: 0.01em;
+  border: 0;
+  padding: 26px 49px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 0 38px;
+}
+
+.decor-large-img {
+  top: 100px !important;
+  left: 550px !important;
+}
+
+.form-control {
+  color: rgba(255, 255, 255, 0.4);
+  background: #242424;
+  border-radius: 22px;
+  border: 0;
+  padding: 26px 30px;
+}
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 1.5px;
+}
+
+.input-group .input-group-text {
+  transition: all 0.4s;
+  z-index: 10;
+  border: 0;
+  border-left: none;
+  border-radius: 22px;
+  padding: 0;
+  color: #FFFFFF;
+  background: #242424;
+}
+.input-group .input-group-button {
+  background: #7879F1;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 22px;
+  padding: 26px 40px;
+  transform: scale(1.02);
+}
+
+.contact-form .dropdown-toggle {
+  color: rgba(255, 255, 255, 0.4);
+  background: #242424;
+  border: 1.5px solid #242424;
+}
+
+.checkbox .form-check-input {
+  background: #2A2A34;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+
+.checkbox input:checked + label::before {
+  background: #2A2A34;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+
+.checkbox label::before {
+  background: #2A2A34;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+
+.checkbox input:checked + label::after {
+  color: #7879F1;
+}
+
+.games {
+  background: #171717;
+  padding: 120px 0 140px 0;
+}
+.games .card {
+  padding: 0;
+  border: 0;
+}
+.games .card .card-footer {
+  position: absolute;
+  padding: 60px;
+  background-color: transparent;
+  border: 0;
+  bottom: 0;
+}
+
+.about-decor {
+  background: url("../images/games/about-decor.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=games.css.map */
