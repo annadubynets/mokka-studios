@@ -4,6 +4,11 @@ $grey: #979797;
 $lightgrey: #AAA8AD;
 $lavenderblush: #E5D9F7;
 $white: #FFFFFF;
+$img-w: 5912px;
+$img-h: 389px;
+$shrink: 2;
+$ratio: 1 / $shrink;
+$speed: 50s;
 h1 {
     font-weight: bold;
     font-size: 80px;

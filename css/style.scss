@@ -308,6 +308,18 @@ ul {
     width: 50vw;
 }
 
+.services-image {
+    background: url('../images/services-main-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50vw;
+}
+
 .team-user-bg {
     background: linear-gradient(141.75deg, #FDEAEB 2.75%, rgba(245, 237, 248, 0.5) 46.82%, #F2EFFE 95.21%);
 }
@@ -682,6 +694,26 @@ iframe {
     line-height: 115px;
 }
 
+​.slider {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - #{$img-h * $ratio / 2});
+    overflow: hidden;
+    .slider-row {
+        width: $img-w * $ratio;
+        height: $img-h * $ratio;
+        background-image: url('../images/services-image.png');
+        background-size: $img-w * $ratio $img-h * $ratio;
+        animation: slide $speed linear infinite;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1560px;
+    }
+}
+
 @media (max-width: 1200px) {
     .rectangle-style {
         width: 87px;
@@ -689,6 +721,12 @@ iframe {
     }
     .font-size-32 {
         font-size: 22px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .btn-white {
+        padding: 18px;
     }
 }
 
@@ -792,6 +830,13 @@ iframe {
         }
         .card-text {
             font-size: 12px;
+        }
+    }
+    .portfolio {
+        .card {
+            .card-footer {
+                padding: 20px;
+            }
         }
     }
     .btn-white {
