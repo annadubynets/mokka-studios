@@ -75,6 +75,10 @@ p {
     padding-top: 320px;
 }
 
+.pt-450 {
+    padding-top: 450px;
+}
+
 .pb-36 {
     padding-bottom: 36px;
 }
@@ -85,6 +89,10 @@ p {
 
 .pb-80 {
     padding-bottom: 80px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
 }
 
 .pb-160 {
@@ -101,6 +109,10 @@ p {
 
 .pb-340 {
     padding-bottom: 340px;
+}
+
+.pb-580 {
+    padding-bottom: 580px;
 }
 
 .py-70 {
@@ -155,8 +167,12 @@ p {
     font-size: 32px;
 }
 
+.font-size-96 {
+    font-size: 96px;
+}
+
 .bg-white {
-    background-color: #FCFDFF!important;
+    background-color: $white!important;
 }
 
 .bg-dark {

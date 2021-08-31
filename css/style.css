@@ -75,6 +75,10 @@ p {
   padding-top: 320px;
 }
 
+.pt-450 {
+  padding-top: 450px;
+}
+
 .pb-36 {
   padding-bottom: 36px;
 }
@@ -85,6 +89,10 @@ p {
 
 .pb-80 {
   padding-bottom: 80px;
+}
+
+.pb-110 {
+  padding-bottom: 110px;
 }
 
 .pb-160 {
@@ -101,6 +109,10 @@ p {
 
 .pb-340 {
   padding-bottom: 340px;
+}
+
+.pb-580 {
+  padding-bottom: 580px;
 }
 
 .py-70 {
@@ -155,8 +167,12 @@ p {
   font-size: 32px;
 }
 
+.font-size-96 {
+  font-size: 96px;
+}
+
 .bg-white {
-  background-color: #FCFDFF !important;
+  background-color: #FFFFFF !important;
 }
 
 .bg-dark {
@@ -197,7 +213,7 @@ p {
 
 body {
   font-family: "Lato";
-  background-color: rgba(255, 255, 255, 0.34);
+  background-color: white;
 }
 
 a {
@@ -431,17 +447,19 @@ ul {
   background-color: #FFFFFF;
   border-radius: 35px;
   padding: 22px 30px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(-25%, -25%);
-  -ms-transform: translate(-25%, -25%);
 }
 .btn-white:hover {
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.25);
 }
 .btn-white:focus {
   box-shadow: inset 0px 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+.services .btn-white {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-25%, -25%);
 }
 
 .btn-outline-dark {
@@ -469,6 +487,22 @@ ul {
   top: 0;
   bottom: 0;
   width: 60vw;
+}
+
+.about-image {
+  background: url("../images/about-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50vw;
+}
+
+.team-user-bg {
+  background: linear-gradient(141.75deg, #FDEAEB 2.75%, rgba(245, 237, 248, 0.5) 46.82%, #F2EFFE 95.21%);
 }
 
 .img-style {
@@ -523,6 +557,34 @@ ul {
 
 .blog .card {
   padding: 40px;
+}
+
+.product .card:hover {
+  box-shadow: none;
+}
+.product .card .product-card-img {
+  min-height: 500px;
+  object-fit: contain;
+  border-radius: 33px;
+}
+.product .card .card-footer {
+  position: absolute;
+  padding: 80px 30px;
+  background-color: transparent;
+  border: 0;
+  bottom: 0;
+}
+
+.portfolio .card {
+  padding: 0;
+  border: 0;
+}
+.portfolio .card .card-footer {
+  position: absolute;
+  padding: 60px;
+  background-color: transparent;
+  border: 0;
+  bottom: 0;
 }
 
 .bg-gradient {
@@ -788,6 +850,11 @@ iframe {
   background-color: transparent !important;
 }
 
+.number-description {
+  font-size: 96px;
+  line-height: 115px;
+}
+
 @media (max-width: 1200px) {
   .rectangle-style {
     width: 87px;
@@ -837,8 +904,16 @@ iframe {
     padding-top: 240px;
   }
 
+  .pt-450 {
+    padding-top: 250px;
+  }
+
   .pb-340 {
     padding-bottom: 80px;
+  }
+
+  .pb-580 {
+    padding-bottom: 270px;
   }
 
   #menu-container li {

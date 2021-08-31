@@ -6,7 +6,7 @@
 @import "variables";
 body {
     font-family: 'Lato';
-    background-color: rgba(255, 255, 255, 0.34)
+    background-color: white;
 }
 
 a {
@@ -248,16 +248,20 @@ ul {
     background-color: $white;
     border-radius: 35px;
     padding: 22px 30px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translate(-25%, -25%);
-    -ms-transform: translate(-25%, -25%);
     &:hover {
         box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.25);
     }
     &:focus {
         box-shadow: inset 0px 15px 35px rgba(0, 0, 0, 0.35);
+    }
+}
+
+.services {
+    .btn-white {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(-25%, -25%);
     }
 }
 
@@ -286,6 +290,22 @@ ul {
     top: 0;
     bottom: 0;
     width: 60vw;
+}
+
+.about-image {
+    background: url('../images/about-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50vw;
+}
+
+.team-user-bg {
+    background: linear-gradient(141.75deg, #FDEAEB 2.75%, rgba(245, 237, 248, 0.5) 46.82%, #F2EFFE 95.21%);
 }
 
 .img-style {
@@ -345,6 +365,40 @@ ul {
 .blog {
     .card {
         padding: 40px;
+    }
+}
+
+.product {
+    .card {
+        &:hover {
+            box-shadow: none;
+        }
+        .product-card-img {
+            min-height: 500px;
+            object-fit: contain;
+            border-radius: 33px;
+        }
+        .card-footer {
+            position: absolute;
+            padding: 80px 30px;
+            background-color: transparent;
+            border: 0;
+            bottom: 0;
+        }
+    }
+}
+
+.portfolio {
+    .card {
+        padding: 0;
+        border: 0;
+        .card-footer {
+            position: absolute;
+            padding: 60px;
+            background-color: transparent;
+            border: 0;
+            bottom: 0;
+        }
     }
 }
 
@@ -619,6 +673,11 @@ iframe {
     }
 }
 
+.number-description {
+    font-size: 96px;
+    line-height: 115px;
+}
+
 @media (max-width: 1200px) {
     .rectangle-style {
         width: 87px;
@@ -659,8 +718,14 @@ iframe {
     .pt-320 {
         padding-top: 240px;
     }
+    .pt-450 {
+        padding-top: 250px;
+    }
     .pb-340 {
         padding-bottom: 80px;
+    }
+    .pb-580 {
+        padding-bottom: 270px;
     }
     #menu-container li {
         margin: 25px 0;
