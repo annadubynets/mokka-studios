@@ -69,6 +69,10 @@ p {
     padding-top: 80px;
 }
 
+.pt-120 {
+    padding-top: 120px;
+}
+
 .pt-180 {
     padding-top: 180px;
 }
@@ -99,6 +103,10 @@ p {
 
 .pb-110 {
     padding-bottom: 110px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
 }
 
 .pb-160 {
@@ -189,8 +197,12 @@ p {
     background-color: $black!important;
 }
 
+.bg-secondary {
+    background-color: #1F1F1F!important;
+}
+
 .bg-pink {
-    background-color: $lavenderblush !important;
+    background-color: $lavenderblush!important;
 }
 
 .shadow-sm {

@@ -63,6 +63,10 @@ p {
   padding-top: 80px;
 }
 
+.pt-120 {
+  padding-top: 120px;
+}
+
 .pt-180 {
   padding-top: 180px;
 }
@@ -93,6 +97,10 @@ p {
 
 .pb-110 {
   padding-bottom: 110px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
 }
 
 .pb-160 {
@@ -181,6 +189,10 @@ p {
 
 .bg-dark {
   background-color: #000000 !important;
+}
+
+.bg-secondary {
+  background-color: #1F1F1F !important;
 }
 
 .bg-pink {
@@ -1119,14 +1131,9 @@ body {
   background: #1B1B1B;
 }
 
-h1 {
-  color: #FFFFFF;
-}
-
-h3 {
-  color: #FFFFFF;
-}
-
+h1,
+h2,
+h3,
 h4 {
   color: #FFFFFF;
   letter-spacing: 1px;
@@ -1143,6 +1150,10 @@ p {
 
 .text-light {
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-secondary {
+  color: #3E3D3D !important;
 }
 
 .bg-dark {
@@ -1260,6 +1271,19 @@ p {
   bottom: 0;
 }
 
+.reviews {
+  background: #171717;
+}
+.reviews .card {
+  padding: 40px;
+}
+.reviews .checked {
+  color: #7879F1;
+}
+.reviews .tech-carousel-nav {
+  bottom: 0;
+}
+
 .about-decor {
   background: url("../images/games/about-decor.png");
   background-repeat: no-repeat;
@@ -1269,6 +1293,52 @@ p {
   left: 0;
   top: 0;
   bottom: 0;
+}
+
+.card:hover {
+  background: transparent;
+}
+
+.tech-carousel-nav {
+  display: flex;
+  bottom: 90px;
+  right: 0;
+}
+.tech-carousel-nav button {
+  border: 0;
+  background-color: transparent;
+}
+.tech-carousel-nav .owl-prev span {
+  font-family: "icomoon";
+  content: "";
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  background: #252525;
+  color: #FFFFFF;
+  border-radius: 12px;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+}
+.tech-carousel-nav .owl-next span {
+  font-family: "icomoon";
+  content: "";
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  background: #252525;
+  color: #FFFFFF;
+  border-radius: 12px;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+}
+
+.user-style {
+  width: 70px !important;
+  height: 70px;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=games.css.map */

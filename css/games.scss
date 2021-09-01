@@ -4,14 +4,9 @@ body {
     background: #1B1B1B;
 }
 
-h1 {
-    color: $white;
-}
-
-h3 {
-    color: $white;
-}
-
+h1,
+h2,
+h3,
 h4 {
     color: $white;
     letter-spacing: 1px;
@@ -28,6 +23,10 @@ p {
 
 .text-light {
     color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.text-secondary {
+    color: #3E3D3D!important;
 }
 
 .bg-dark {
@@ -153,6 +152,19 @@ p {
     }
 }
 
+.reviews {
+    background: #171717;
+    .card {
+        padding: 40px;
+    }
+    .checked {
+        color: $blueviolet;
+    }
+    .tech-carousel-nav {
+        bottom: 0;
+    }
+}
+
 .about-decor {
     background: url('../images/games/about-decor.png');
     background-repeat: no-repeat;
@@ -162,4 +174,52 @@ p {
     left: 0;
     top: 0;
     bottom: 0;
+}
+
+.card {
+    &:hover {
+        background: transparent;
+    }
+}
+
+.tech-carousel-nav {
+    display: flex;
+    bottom: 90px;
+    right: 0;
+    button {
+        border: 0;
+        background-color: transparent;
+    }
+    .owl-prev span {
+        font-family: 'icomoon';
+        content: "\e910";
+        font-size: 18px;
+        width: 36px;
+        height: 36px;
+        background: #252525;
+        color: $white;
+        border-radius: 12px;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+    }
+    .owl-next span {
+        font-family: 'icomoon';
+        content: "\e911";
+        font-size: 18px;
+        width: 36px;
+        height: 36px;
+        background: #252525;
+        color: $white;
+        border-radius: 12px;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+    }
+}
+
+.user-style {
+    width: 70px!important;
+    height: 70px;
+    border-radius: 50px;
 }
