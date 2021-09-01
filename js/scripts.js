@@ -31,12 +31,12 @@ if ($('.reviews .owl-carousel').length > 0) {
         responsive: {
             0: {
                 items: 1,
-                stagePadding: 60,
+                stagePadding: 70,
                 nav: true
             },
             768: {
                 items: 2,
-                stagePadding: 60,
+                stagePadding: 70,
                 nav: true,
                 loop: false
             },
@@ -61,16 +61,16 @@ if ($('.product .owl-carousel').length > 0) {
         responsive: {
             0: {
                 items: 1,
-                stagePadding: 60,
+                stagePadding: 70,
                 nav: true
             },
-            768: {
+            767: {
                 items: 2,
-                stagePadding: 60,
+                stagePadding: 70,
                 nav: true,
                 loop: false
             },
-            992: {
+            1400: {
                 items: 3,
                 stagePadding: 120,
                 nav: true,

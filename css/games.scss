@@ -223,3 +223,19 @@ p {
     height: 70px;
     border-radius: 50px;
 }
+
+@media (max-width: 992px) {
+    .product {
+        .card {
+            .product-card-img {
+                min-height: 275px;
+            }
+            .card-footer {
+                h4 {
+                    font-size: 22px;
+                }
+                padding: 0 20px;
+            }
+        }
+    }
+}
