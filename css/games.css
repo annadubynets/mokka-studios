@@ -719,6 +719,10 @@ ul {
 .decor-white.right {
   left: initial;
   right: 0;
+  border-top-left-radius: 33px;
+  border-bottom-left-radius: 33px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .decor-blur {
@@ -727,7 +731,7 @@ ul {
   bottom: 0;
   top: 0;
   width: 55%;
-  background: linear-gradient(287.35deg, rgba(251, 250, 254, 0.25) 43.42%, rgba(254, 248, 249, 0.3) 57.59%);
+  background: linear-gradient(271.89deg, rgba(251, 250, 254, 0.22) 40.15%, rgba(254, 248, 249, 0.22) 56.67%);
   z-index: -1;
 }
 .decor-blur.left {
