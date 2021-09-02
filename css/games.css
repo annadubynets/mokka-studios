@@ -544,6 +544,11 @@ ul {
   width: 60vw;
 }
 
+.main-gradient {
+  background: linear-gradient(212.28deg, rgba(248, 244, 254, 0.5) 23.99%, rgba(252, 248, 250, 0.1) 36.81%);
+  z-index: -2;
+}
+
 .about-image {
   background: url("../images/about-image.png");
   background-repeat: no-repeat;
@@ -554,6 +559,7 @@ ul {
   top: 0;
   bottom: 0;
   width: 50vw;
+  z-index: -1;
 }
 
 .services-image {
@@ -692,18 +698,6 @@ ul {
   bottom: 50px;
 }
 
-.portfolio .card {
-  padding: 0;
-  border: 0;
-}
-.portfolio .card .card-footer {
-  position: absolute;
-  padding: 60px;
-  background-color: transparent;
-  border: 0;
-  bottom: 0;
-}
-
 .decor-white {
   position: absolute;
   left: 0;
@@ -780,6 +774,7 @@ footer ul li a:hover {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 footer a {
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
 }
 footer a:hover {
@@ -1011,6 +1006,11 @@ iframe {
   line-height: 115px;
 }
 
+.text-description {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+}
+
 .text-caption-decoration {
   content: attr(data-caption);
   display: inline-block;
@@ -1021,14 +1021,80 @@ iframe {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .btn-dark {
+    padding: 23px 48px;
+  }
+
+  .btn-outline-dark {
+    padding: 14px 18px;
+  }
+
+  .btn-white {
+    padding: 17px 22px;
+  }
+
+  .card {
+    padding: 40px;
+  }
+  .card .card-title {
+    font-size: 15px;
+  }
+  .card .card-text {
+    font-size: 14px;
+  }
+
+  .font-size-18 {
+    font-size: 14px;
+  }
+
+  .font-size-32 {
+    font-size: 24px;
+  }
+
+  .number-description {
+    font-size: 70px;
+    line-height: 84px;
+  }
+
+  .text-description {
+    font-size: 15px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+  footer ul li a {
+    font-size: 14px;
+  }
+  footer a {
+    font-size: 14px;
+  }
+}
 @media (min-width: 1600px) {
   .container {
     max-width: 1560px;
   }
 }
-@media (min-width: 1400px) and (max-width: 1760px) {
+@media (min-width: 992px) and (max-width: 1760px) {
   .product .card .card-footer {
-    bottom: 100px;
+    bottom: 110px;
   }
 }
 @media (max-width: 1200px) {
@@ -1070,6 +1136,12 @@ iframe {
   .hero-image {
     background: url("../images/main-middle.png");
     background-repeat: no-repeat;
+  }
+
+  .about-image {
+    background: url("../images/about-middle.png");
+    background-repeat: no-repeat;
+    width: 45vw;
   }
 
   .pt-180 {
@@ -1117,6 +1189,7 @@ iframe {
 
   .product .card .product-card-img {
     min-height: 375px;
+    object-fit: cover;
   }
   .product .card .card-footer {
     padding: 0 20px;
@@ -1124,10 +1197,23 @@ iframe {
   .product .card .card-footer h4 {
     font-size: 22px;
   }
+
+  .services ul {
+    column-count: 1;
+  }
+
+  .number-description {
+    font-size: 70px;
+    line-height: 84px;
+  }
 }
 @media (max-width: 768px) {
   h1 {
     font-size: 54px !important;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 
   h3 {
@@ -1188,10 +1274,6 @@ iframe {
     font-size: 12px;
   }
 
-  .portfolio .card .card-footer {
-    padding: 20px;
-  }
-
   .btn-white {
     padding: 17px 23px;
   }
@@ -1222,6 +1304,18 @@ iframe {
     font-size: 14px;
   }
 
+  .about .about-image {
+    background: url("../images/about-mobile.png");
+    background-repeat: no-repeat;
+    width: 40vw;
+  }
+  .about.pt-320 {
+    padding-top: 360px;
+  }
+  .about.pb-580 {
+    padding-bottom: 120px;
+  }
+
   footer {
     padding: 30px 0;
   }
@@ -1246,6 +1340,10 @@ iframe {
     background-repeat: no-repeat;
   }
 
+  .about .about-image {
+    width: 56vw;
+  }
+
   .pt-180 {
     padding-top: 280px;
   }
@@ -1255,7 +1353,7 @@ iframe {
   }
 
   .product .card .card-footer {
-    bottom: 75px;
+    bottom: 40px;
   }
 }
 @media (max-width: 414px) {
@@ -1263,6 +1361,10 @@ iframe {
     background: url("../images/main-mobile.png");
     background-repeat: no-repeat;
     width: 88vw;
+  }
+
+  .about .about-image {
+    width: 76vw;
   }
 }
 body {
