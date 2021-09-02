@@ -344,7 +344,7 @@ ul {
   width: 88px;
   height: 88px;
   border: 0;
-  border-radius: 22px;
+  border-radius: 32px;
   transition-duration: 0.5s;
 }
 .btn-menu span {
@@ -376,7 +376,7 @@ ul {
   .btn-menu {
     width: 50px;
     height: 50px;
-    border-radius: 12px;
+    border-radius: 17.9px;
   }
   .btn-menu span {
     top: 58%;
@@ -1021,7 +1021,11 @@ iframe {
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container {
+    max-width: 1170px;
+  }
+
   h1 {
     font-size: 60px;
   }
@@ -1089,6 +1093,32 @@ iframe {
   }
   footer a {
     font-size: 14px;
+  }
+}
+.navbar-brand-img {
+  display: none;
+}
+@media (min-width: 1600px) {
+  .navbar-brand-img.large {
+    display: block;
+  }
+}
+@media (min-width: 577px) and (max-width: 1599px) {
+  .navbar-brand-img.middle {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-brand-img.mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1600px) {
+  .btn-menu {
+    width: 66px;
+    height: 66px;
+    border-radius: 17.9px;
   }
 }
 @media (min-width: 1600px) {

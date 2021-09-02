@@ -97,7 +97,7 @@ ul {
     width: 88px;
     height: 88px;
     border: 0;
-    border-radius: 22px;
+    border-radius: 32px;
     transition-duration: .5s;
     span {
         top: 52%;
@@ -132,7 +132,7 @@ ul {
     .btn-menu {
         width: 50px;
         height: 50px;
-        border-radius: 12px;
+        border-radius: 17.9px;
         span {
             top: 58%;
             &,
@@ -802,7 +802,10 @@ iframe {
     -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .container {
+        max-width: 1170px;
+    }
     h1 {
         font-size: 60px;
     }
@@ -863,6 +866,33 @@ iframe {
         a {
             font-size: 14px;
         }
+    }
+}
+
+.navbar-brand-img {
+    display: none;
+    @media (min-width: 1600px) {
+        &.large {
+            display: block;
+        }
+    }
+    @media (min-width: 577px) and (max-width: 1599px) {
+        &.middle {
+            display: block;
+        }
+    }
+    @media (max-width: 576px) {
+        &.mobile {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1600px) {
+    .btn-menu {
+        width: 66px;
+        height: 66px;
+        border-radius: 17.9px;
     }
 }
 
