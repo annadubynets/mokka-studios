@@ -1026,6 +1026,10 @@ iframe {
     font-size: 60px;
   }
 
+  h2 {
+    font-size: 40px;
+  }
+
   h3 {
     font-size: 28px;
   }
@@ -1213,7 +1217,7 @@ iframe {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   h3 {
@@ -1258,6 +1262,10 @@ iframe {
 
   .mb-80 {
     margin-bottom: 30px;
+  }
+
+  .mb-180 {
+    margin-bottom: 100px;
   }
 
   .navbar {
