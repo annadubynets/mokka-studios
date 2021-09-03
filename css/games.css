@@ -745,6 +745,20 @@ ul {
   border-radius: 40px;
   padding: 18px 26px;
 }
+@media (max-width: 992px) {
+  .services .service-description {
+    height: 578px;
+  }
+  .services .decor-white {
+    top: 50%;
+  }
+  .services .decor-blur {
+    left: 0;
+    right: 0;
+    width: auto;
+    bottom: 50%;
+  }
+}
 
 .services-hero .decor-white {
   z-index: 1;
@@ -760,6 +774,11 @@ ul {
   top: 0;
   right: 0;
   z-index: -1;
+}
+@media (max-width: 992px) {
+  .icon-style {
+    right: initial;
+  }
 }
 
 textarea {
