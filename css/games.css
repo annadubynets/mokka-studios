@@ -750,7 +750,8 @@ ul {
     height: 578px;
   }
   .services .decor-white {
-    top: 50%;
+    top: 55%;
+    width: 96%;
   }
   .services .decor-blur {
     left: 0;
@@ -1241,6 +1242,10 @@ iframe {
     background: url("../images/about-middle.png");
     background-repeat: no-repeat;
     width: 45vw;
+  }
+
+  .py-128 {
+    padding: 60px 0;
   }
 
   .pt-180 {
