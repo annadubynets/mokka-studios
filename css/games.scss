@@ -244,12 +244,12 @@ p {
     display: none;
     @media (min-width: 577px) {
         &.middle {
-            display: block;
+            display: inline-block;
         }
     }
     @media (max-width: 576px) {
         &.mobile {
-            display: block;
+            display: inline-block;
         }
     }
 }

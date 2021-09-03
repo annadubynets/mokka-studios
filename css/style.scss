@@ -873,17 +873,17 @@ iframe {
     display: none;
     @media (min-width: 1600px) {
         &.large {
-            display: block;
+            display: inline-block;
         }
     }
     @media (min-width: 577px) and (max-width: 1599px) {
         &.middle {
-            display: block;
+            display: inline-block;
         }
     }
     @media (max-width: 576px) {
         &.mobile {
-            display: block;
+            display: inline-block;
         }
     }
 }

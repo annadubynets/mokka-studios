@@ -1100,17 +1100,17 @@ iframe {
 }
 @media (min-width: 1600px) {
   .navbar-brand-img.large {
-    display: block;
+    display: inline-block;
   }
 }
 @media (min-width: 577px) and (max-width: 1599px) {
   .navbar-brand-img.middle {
-    display: block;
+    display: inline-block;
   }
 }
 @media (max-width: 576px) {
   .navbar-brand-img.mobile {
-    display: block;
+    display: inline-block;
   }
 }
 
