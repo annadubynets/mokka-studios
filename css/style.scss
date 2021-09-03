@@ -519,6 +519,23 @@ ul {
         border-radius: 40px;
         padding: 18px 26px;
     }
+
+    @media (max-width: 992px) {
+        .service-description {
+            height: 578px;
+        }
+
+        .decor-white {
+            top: 50%;
+        }
+
+        .decor-blur {
+            left: 0;
+            right: 0;
+            width: auto;
+            bottom: 50%;
+        }
+    }
 }
 
 .services-hero {
@@ -537,6 +554,10 @@ ul {
     top: 0;
     right: 0;
     z-index: -1;
+
+    @media (max-width: 992px) {
+        right: initial;
+    }
 }
 
 textarea {
