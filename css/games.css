@@ -1638,5 +1638,18 @@ p {
     font-size: 22px;
   }
 }
+.navbar-brand-img {
+  display: none;
+}
+@media (min-width: 577px) {
+  .navbar-brand-img.middle {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-brand-img.mobile {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=games.css.map */
