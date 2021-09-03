@@ -601,6 +601,10 @@ ul {
   justify-content: center;
 }
 
+.team .tech-carousel-nav {
+  bottom: 50px;
+}
+
 .tech-carousel-nav {
   display: flex;
   bottom: 90px;
