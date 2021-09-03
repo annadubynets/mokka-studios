@@ -499,24 +499,6 @@ ul {
   box-shadow: inset 0px 15px 35px rgba(0, 0, 0, 0.35);
 }
 
-.services .btn-white {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(-25%, -25%);
-}
-.services ul {
-  list-style: disc;
-  column-count: 2;
-}
-.services .services-item {
-  display: inline-block;
-  background-color: #FFFFFF;
-  box-shadow: -40px 40px 80px rgba(0, 0, 0, 0.05);
-  border-radius: 40px;
-  padding: 18px 26px;
-}
-
 .btn-outline-dark {
   color: #000000;
   background-color: #FFFFFF;
@@ -744,6 +726,29 @@ ul {
 
 .decor-small-img {
   top: -40px;
+}
+
+.services .btn-white {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-25%, -25%);
+}
+.services ul {
+  list-style: disc;
+  column-count: 2;
+}
+.services .services-item {
+  display: inline-block;
+  background-color: #FFFFFF;
+  box-shadow: -40px 40px 80px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  padding: 18px 26px;
+}
+
+.services-hero .decor-white {
+  z-index: 1;
+  width: 30%;
 }
 
 .rectangle-style {
@@ -1025,6 +1030,28 @@ iframe {
   -webkit-text-fill-color: transparent;
 }
 
+.slider {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 400px);
+  overflow: hidden;
+}
+.slider .slider-row {
+  width: 2956px;
+  height: 800px;
+  background-image: url("../images/services-image.png");
+  background-size: 2956px 800px;
+  animation: slide 50s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -2956px;
+  }
+}
 @media (min-width: 1200px) and (max-width: 1600px) {
   .container {
     max-width: 1170px;
@@ -1156,6 +1183,10 @@ iframe {
   .btn-white {
     padding: 18px;
   }
+
+  .services-hero .decor-white {
+    width: 50%;
+  }
 }
 @media (min-width: 577px) and (max-width: 991px) {
   .hero-image {
@@ -1254,6 +1285,10 @@ iframe {
   .number-description {
     font-size: 70px;
     line-height: 84px;
+  }
+
+  .services-hero .decor-white {
+    width: 50%;
   }
 }
 @media (max-width: 768px) {
@@ -1403,6 +1438,10 @@ iframe {
 
   .product .card .card-footer {
     bottom: 40px;
+  }
+
+  .services-hero .decor-white {
+    width: 70%;
   }
 }
 @media (max-width: 414px) {

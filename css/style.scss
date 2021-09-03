@@ -260,26 +260,6 @@ ul {
     }
 }
 
-.services {
-    .btn-white {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        transform: translate(-25%, -25%);
-    }
-    ul {
-        list-style: disc;
-        column-count: 2;
-    }
-    .services-item {
-        display: inline-block;
-        background-color: $white;
-        box-shadow: -40px 40px 80px rgba(0, 0, 0, 0.05);
-        border-radius: 40px;
-        padding: 18px 26px;
-    }
-}
-
 .btn-outline-dark {
     color: $black;
     background-color: $white;
@@ -519,6 +499,33 @@ ul {
 
 .decor-small-img {
     top: -40px;
+}
+
+.services {
+    .btn-white {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(-25%, -25%);
+    }
+    ul {
+        list-style: disc;
+        column-count: 2;
+    }
+    .services-item {
+        display: inline-block;
+        background-color: $white;
+        box-shadow: -40px 40px 80px rgba(0, 0, 0, 0.05);
+        border-radius: 40px;
+        padding: 18px 26px;
+    }
+}
+
+.services-hero {
+    .decor-white {
+        z-index: 1;
+        width: 30%;
+    }
 }
 
 .rectangle-style {
@@ -808,6 +815,34 @@ iframe {
     -webkit-text-fill-color: transparent;
 }
 
+$img-w: 5912px;
+$img-h: 1600px;
+$shrink: 2;
+$ratio: 1 / $shrink;
+$speed: 50s;
+.slider {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - #{$img-h * $ratio / 2});
+    overflow: hidden;
+    .slider-row {
+        width: $img-w * $ratio;
+        height: $img-h * $ratio;
+        background-image: url('../images/services-image.png');
+        background-size: $img-w * $ratio $img-h * $ratio;
+        animation: slide $speed linear infinite;
+    }
+}
+
+@keyframes slide {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: -$img-w * $ratio;
+    }
+}
+
 @media (min-width: 1200px) and (max-width: 1600px) {
     .container {
         max-width: 1170px;
@@ -935,6 +970,9 @@ iframe {
     .btn-white {
         padding: 18px;
     }
+    .services-hero .decor-white {
+        width: 50%;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
@@ -1025,6 +1063,9 @@ iframe {
     .number-description {
         font-size: 70px;
         line-height: 84px
+    }
+    .services-hero .decor-white {
+        width: 50%;
     }
 }
 
@@ -1158,6 +1199,9 @@ iframe {
                 bottom: 40px;
             }
         }
+    }
+    .services-hero .decor-white {
+        width: 70%;
     }
 }
 
