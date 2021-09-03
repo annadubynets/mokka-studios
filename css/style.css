@@ -1132,10 +1132,14 @@ iframe {
 }
 @media (min-width: 992px) and (max-width: 1760px) {
   .product .card .card-footer {
-    bottom: 110px;
+    bottom: 60px;
   }
 }
 @media (max-width: 1200px) {
+  h1 {
+    font-size: 54px !important;
+  }
+
   .rectangle-style {
     width: 87px;
     height: 87px;
@@ -1253,10 +1257,6 @@ iframe {
   }
 }
 @media (max-width: 768px) {
-  h1 {
-    font-size: 54px !important;
-  }
-
   h2 {
     font-size: 32px;
   }

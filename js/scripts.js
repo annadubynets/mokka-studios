@@ -86,6 +86,7 @@ if ($('.team .owl-carousel').length > 0) {
         margin: 30,
         responsiveClass: true,
         autoplay: false,
+        dots: false,
         navContainer: '.team .tech-carousel-nav',
         responsive: {
             0: {
