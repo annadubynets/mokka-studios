@@ -334,9 +334,7 @@ ul {
 }
 
 .img-style {
-    padding: 0 157px;
-    position: relative;
-    bottom: 0;
+    width: auto;
 }
 
 .owl-carousel .owl-item img {
@@ -524,8 +522,11 @@ ul {
             height: 578px;
         }
         .decor-white {
-            top: 55%;
+            top: 40%;
             width: 96%;
+            &.right {
+                top: 45%;
+            }
         }
         .decor-blur {
             left: 0;
@@ -847,7 +848,7 @@ $speed: 50s;
         width: $img-w * $ratio;
         height: $img-h * $ratio;
         background-image: url('../images/services-image.png');
-        background-size: $img-w * $ratio $img-h * $ratio;
+        background-size: contain;
         animation: slide $speed linear infinite;
     }
 }
@@ -1026,6 +1027,9 @@ $speed: 50s;
         background-repeat: no-repeat;
         width: 45vw;
     }
+    .img-style {
+        width: 60%;
+    }
     .py-128 {
         padding: 60px 0;
     }
@@ -1179,6 +1183,9 @@ $speed: 50s;
         &.pb-580 {
             padding-bottom: 120px;
         }
+    }
+    .img-style {
+        width: 80%;
     }
     footer {
         padding: 30px 0;
