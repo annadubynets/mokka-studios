@@ -61,7 +61,7 @@ if ($('.product .owl-carousel').length > 0) {
         responsive: {
             0: {
                 items: 1,
-                stagePadding: 70,
+                stagePadding: 40,
                 nav: true
             },
             767: {
