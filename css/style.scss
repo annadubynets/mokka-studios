@@ -522,10 +522,10 @@ ul {
             height: 578px;
         }
         .decor-white {
-            top: 40%;
+            top: 48%;
             width: 96%;
             &.right {
-                top: 45%;
+                top: 54%;
             }
         }
         .decor-blur {
@@ -1230,6 +1230,13 @@ $speed: 50s;
     }
     .services-hero .decor-white {
         width: 70%;
+    }
+    .services .decor-white {
+        top: 48%;
+        width: 96%;
+        &.right {
+            top: 48%;
+        }
     }
 }
 

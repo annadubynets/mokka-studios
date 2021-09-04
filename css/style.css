@@ -748,11 +748,11 @@ ul {
     height: 578px;
   }
   .services .decor-white {
-    top: 40%;
+    top: 48%;
     width: 96%;
   }
   .services .decor-white.right {
-    top: 45%;
+    top: 54%;
   }
   .services .decor-blur {
     left: 0;
@@ -1475,6 +1475,14 @@ iframe {
 
   .services-hero .decor-white {
     width: 70%;
+  }
+
+  .services .decor-white {
+    top: 48%;
+    width: 96%;
+  }
+  .services .decor-white.right {
+    top: 48%;
   }
 }
 @media (max-width: 414px) {
