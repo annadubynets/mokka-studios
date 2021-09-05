@@ -363,7 +363,8 @@ p {
     .btn-menu span:after {
         background-color: $black;
     }
-    .navbar.fixed-top.scrolled {
-        background: $black!important;
-    }
+}
+
+.navbar.fixed-top.scrolled {
+    background: $black!important;
 }

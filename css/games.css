@@ -1847,10 +1847,9 @@ p {
 .btn-menu span:after {
     background-color: #000000;
   }
-
-  .navbar.fixed-top.scrolled {
-    background: #000000 !important;
-  }
+}
+.navbar.fixed-top.scrolled {
+  background: #000000 !important;
 }
 
 /*# sourceMappingURL=games.css.map */
