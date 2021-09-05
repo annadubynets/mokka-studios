@@ -1761,4 +1761,96 @@ p {
   object-fit: cover;
 }
 
+@media (min-width: 1200px) {
+  .btn-container {
+    display: none;
+  }
+
+  #menu-container {
+    height: auto;
+    position: fixed;
+    bottom: initial;
+    box-sizing: border-box;
+    min-width: 100%;
+    background: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s ease-out;
+    background-color: white;
+  }
+  #menu-container a {
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+  }
+  #menu-container a:focus {
+    opacity: 1;
+  }
+  #menu-container a:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  #menu-container li {
+    display: inline;
+    margin: 0 30px;
+  }
+  #menu-container.show {
+    right: initial;
+  }
+  #menu-container.hide {
+    opacity: initial;
+    right: initial;
+  }
+
+  #menu-inner {
+    margin: 0;
+    overflow: initial;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  #menu-inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sub-list li {
+    margin: 0 10px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  #menu-container a {
+    font-size: 16px;
+  }
+  #menu-container li {
+    margin: 0 15px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  #menu-container {
+    background: #1B1B1B;
+  }
+  #menu-container li {
+    margin: 25px 0;
+  }
+  #menu-container li a {
+    color: #FFFFFF;
+  }
+
+  .btn-menu {
+    background: #FFFFFF !important;
+  }
+
+  .btn-menu span,
+.btn-menu span:before,
+.btn-menu span:after {
+    background-color: #000000;
+  }
+
+  .navbar.fixed-top.scrolled {
+    background: #000000 !important;
+  }
+}
+
 /*# sourceMappingURL=games.css.map */
