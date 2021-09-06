@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?cnbvkp');
-    src: url('../fonts/icomoon.eot?cnbvkp#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?cnbvkp') format('truetype'), url('../fonts/icomoon.woff?cnbvkp') format('woff'), url('../fonts/icomoon.svg?cnbvkp#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?ejqobz');
+    src: url('../fonts/icomoon.eot?ejqobz#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?ejqobz') format('truetype'), url('../fonts/icomoon.woff?ejqobz') format('woff'), url('../fonts/icomoon.svg?ejqobz#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -135,6 +135,10 @@
 
 .icon-telegram:before {
     content: "\e90e";
+}
+
+.icon-play:before {
+    content: "\e916";
 }
 
 .icon-time:before {
