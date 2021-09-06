@@ -1578,6 +1578,13 @@ p {
   color: rgba(255, 255, 255, 0.4);
   letter-spacing: 1.5px;
 }
+@media (max-width: 768px) {
+  .form-control {
+    font-size: 14px;
+    padding: 22px 15px;
+    border-radius: 17px;
+  }
+}
 
 .input-group .input-group-text {
   transition: all 0.4s;
@@ -1598,6 +1605,13 @@ p {
   border-radius: 22px;
   padding: 26px 40px;
   transform: scale(1.02);
+}
+@media (max-width: 768px) {
+  .input-group .input-group-button {
+    font-size: 14px;
+    padding: 22px 15px;
+    border-radius: 17px;
+  }
 }
 
 .contact-form .dropdown-toggle {
@@ -1754,6 +1768,28 @@ p {
   right: 0;
   color: #fff;
   text-align: left;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 20px;
+  height: 4px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  left: initial;
+  top: 35%;
+  bottom: initial;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.carousel-indicators .active {
+  background-color: #7879F1;
+  width: 34px;
 }
 
 .main-img {
