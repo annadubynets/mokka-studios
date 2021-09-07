@@ -83,7 +83,7 @@ if ($('.product .owl-carousel').length > 0) {
 if ($('.team .owl-carousel').length > 0) {
     $('.team .owl-carousel').owlCarousel({
         loop: true,
-        margin: 30,
+        margin: 60,
         responsiveClass: true,
         autoplay: false,
         dots: false,
@@ -91,18 +91,18 @@ if ($('.team .owl-carousel').length > 0) {
         responsive: {
             0: {
                 items: 1,
-                stagePadding: 60,
+                stagePadding: 90,
                 nav: false
             },
             768: {
                 items: 3,
-                stagePadding: 60,
+                stagePadding: 90,
                 nav: true,
                 loop: false
             },
             992: {
                 items: 5,
-                stagePadding: 60,
+                stagePadding: 90,
                 nav: true,
                 loop: false
             }
