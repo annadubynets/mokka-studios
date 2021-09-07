@@ -436,7 +436,8 @@ ul {
   opacity: 1;
 }
 #menu-container a:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: #000000;
+  font-weight: 600;
 }
 #menu-container li {
   display: inline;
@@ -744,7 +745,7 @@ ul {
 .services .services-item {
   display: inline-block;
   background-color: #FFFFFF;
-  box-shadow: -40px 40px 80px rgba(0, 0, 0, 0.05);
+  box-shadow: -20px 0px 40px rgba(0, 0, 0, 0.05);
   border-radius: 40px;
   padding: 18px 26px;
 }
