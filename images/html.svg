@@ -1,6 +1,6 @@
 <svg width="110" height="77" viewBox="0 0 110 77" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect width="110" height="77" rx="21" fill="white"/>
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="110" height="77">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="110" height="77">
 <rect width="110" height="77" rx="21" fill="white"/>
 </mask>
 <g mask="url(#mask0)">

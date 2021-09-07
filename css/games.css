@@ -1051,7 +1051,7 @@ iframe {
   line-height: 115px;
 }
 
-.text-description {
+View Compiled Resources .text-description {
   font-size: 18px;
   letter-spacing: 0.01em;
 }
@@ -1894,8 +1894,7 @@ p {
     background: #FFFFFF !important;
   }
 
-  .btn-menu span,
-.btn-menu span:before,
+  .btn-menu span:before,
 .btn-menu span:after {
     background-color: #000000;
   }
