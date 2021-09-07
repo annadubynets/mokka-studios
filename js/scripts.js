@@ -27,6 +27,7 @@ if ($('.reviews .owl-carousel').length > 0) {
         responsiveClass: true,
         autoplay: false,
         dots: false,
+        autoHeight: true,
         navContainer: '.reviews .tech-carousel-nav',
         responsive: {
             0: {

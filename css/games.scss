@@ -176,6 +176,13 @@ p {
     .tech-carousel-nav {
         bottom: 0;
     }
+    .owl-carousel .owl-stage {
+        display: flex;
+    }
+    .owl-carousel .owl-item {
+        display: flex;
+        flex: 1 0 auto;
+    }
 }
 
 .about-decor {

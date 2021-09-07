@@ -1687,6 +1687,13 @@ p {
 .reviews .tech-carousel-nav {
   bottom: 0;
 }
+.reviews .owl-carousel .owl-stage {
+  display: flex;
+}
+.reviews .owl-carousel .owl-item {
+  display: flex;
+  flex: 1 0 auto;
+}
 
 .about-decor {
   background: url("../images/games/about-decor.png");
