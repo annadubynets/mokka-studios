@@ -1819,6 +1819,19 @@ p {
   object-fit: cover;
 }
 
+@media (min-width: 992px) and (max-width: 1600px) {
+  .decor-large-img {
+    top: 200px !important;
+    left: 370px !important;
+  }
+}
+@media (max-width: 992px) {
+  .decor-large-img {
+    top: 215px !important;
+    left: 260px !important;
+  }
+}
+
 @media (min-width: 1200px) {
   .btn-container {
     display: none;
