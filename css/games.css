@@ -673,7 +673,7 @@ ul {
 }
 
 .product .card:hover {
-  box-shadow: none;
+  box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
 }
 .product .card .product-card-img {
   min-height: 500px;
@@ -1193,9 +1193,9 @@ View Compiled Resources .text-description {
     max-width: 1560px;
   }
 }
-@media (min-width: 992px) and (max-width: 1760px) {
+@media (max-width: 1760px) {
   .product .card .card-footer {
-    bottom: 60px;
+    bottom: 85px;
   }
 }
 @media (max-width: 1200px) {
@@ -1766,6 +1766,7 @@ p {
 
   .btn-primary {
     padding: 15px 36px;
+    border-radius: 17px;
   }
 }
 .navbar-brand-img {
@@ -1819,6 +1820,21 @@ p {
   object-fit: cover;
 }
 
+#menu-container a {
+  color: #FFFFFF !important;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
+}
+#menu-container a:focus {
+  color: #FFFFFF !important;
+  opacity: 1;
+}
+#menu-container a:hover {
+  font-weight: 600;
+  color: #FFFFFF !important;
+}
+
 @media (min-width: 992px) and (max-width: 1600px) {
   .decor-large-img {
     top: 200px !important;
@@ -1847,19 +1863,6 @@ p {
     text-align: center;
     transition: all 0.5s ease-out;
     background-color: white;
-  }
-  #menu-container a {
-    color: #FFFFFF;
-    font-size: 20px;
-    letter-spacing: 1px;
-    transition-duration: 0.5s;
-  }
-  #menu-container a:focus {
-    opacity: 1;
-  }
-  #menu-container a:hover {
-    font-weight: 600;
-    color: #FFFFFF;
   }
   #menu-container li {
     display: inline;
@@ -1895,7 +1898,7 @@ p {
     font-size: 16px;
   }
   #menu-container li {
-    margin: 0 15px;
+    margin: 0 10px;
     margin-bottom: 10px;
   }
 }

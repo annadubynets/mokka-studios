@@ -261,6 +261,7 @@ p {
     }
     .btn-primary {
         padding: 15px 36px;
+        border-radius: 17px;
     }
 }
 
@@ -315,6 +316,23 @@ p {
     object-fit: cover;
 }
 
+#menu-container {
+    a {
+        color: $white!important;
+        font-size: 20px;
+        letter-spacing: 1px;
+        transition-duration: .5s;
+        &:focus {
+            color: $white!important;
+            opacity: 1;
+        }
+        &:hover {
+            font-weight: 600;
+            color: $white!important;
+        }
+    }
+}
+
 .decor-large-img {
     @media (min-width: 992px) and (max-width: 1600px) {
         top: 200px!important;
@@ -339,19 +357,6 @@ p {
         background: $white;
         text-align: center;
         transition: all .5s ease-out;
-        a {
-            color: $white;
-            font-size: 20px;
-            letter-spacing: 1px;
-            transition-duration: .5s;
-            &:focus {
-                opacity: 1;
-            }
-            &:hover {
-                font-weight: 600;
-                color: $white;
-            }
-        }
         li {
             display: inline;
             margin: 0 30px;
@@ -390,7 +395,7 @@ p {
             font-size: 16px;
         }
         li {
-            margin: 0 15px;
+            margin: 0 10px;
             margin-bottom: 10px;
         }
     }

@@ -436,7 +436,7 @@ ul {
 .product {
     .card {
         &:hover {
-            box-shadow: none;
+            box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
         }
         .product-card-img {
             min-height: 500px;
@@ -969,11 +969,11 @@ $speed: 50s;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1760px) {
+@media (max-width: 1760px) {
     .product {
         .card {
             .card-footer {
-                bottom: 60px;
+                bottom: 85px;
             }
         }
     }
