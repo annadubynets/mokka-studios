@@ -113,25 +113,26 @@ if ($('.team .owl-carousel').length > 0) {
 
 $(function() {
     const menuIcon = document.getElementById("menu-icon");
+    const activeMenuButtonClassName = "btn-menu-active";
     if (!menuIcon) return;
+
     menuIcon.addEventListener('click',
         function() {
             var allClasses = this.classList;
             var l = allClasses.length;
-            var className = "btn-menu-active";
+            
 
             while (l--) {
-                if (allClasses[l] == className) {
-                    allClasses.remove(allClasses[l]);
+                if (allClasses[l] == activeMenuButtonClassName) {
                     // hide menu 
                     showMenu(false);
                     return;
                 }
-                allClasses.add(className);
                 // show menu
                 showMenu(true);
             }
-        });
+        }
+    );
 
     function showMenu(modeBool) {
 
@@ -142,7 +143,13 @@ $(function() {
         var menuContainer = document.getElementById("menu-container");
         menuContainer.classList.remove(modeStr(!modeBool));
         menuContainer.classList.add(modeStr(modeBool));
+
+        $(menuIcon).toggleClass(activeMenuButtonClassName, modeBool);
     }
+
+    $('.menu-link').on('click', function() {
+        showMenu(false);
+    });
 });
 
 
