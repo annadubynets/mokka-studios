@@ -1511,5 +1511,8 @@ View Compiled Resources .text-description {
     width: 76vw;
   }
 }
+.menu-opened {
+  overflow-y: hidden;
+}
 
 /*# sourceMappingURL=style.css.map */

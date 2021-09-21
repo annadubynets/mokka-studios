@@ -401,6 +401,12 @@ p {
     }
 }
 
+
+.menu-opened {
+    overflow-y: initial;
+}
+
+
 @media (max-width: 1200px) {
     #menu-container {
         background: #1B1B1B;
@@ -417,6 +423,10 @@ p {
     .btn-menu span:before,
     .btn-menu span:after {
         background-color: $black;
+    }
+
+    .menu-opened {
+        overflow-y: hidden;
     }
 }
 

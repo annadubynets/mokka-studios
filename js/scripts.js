@@ -145,6 +145,8 @@ $(function() {
         menuContainer.classList.add(modeStr(modeBool));
 
         $(menuIcon).toggleClass(activeMenuButtonClassName, modeBool);
+
+        $('body').toggleClass('menu-opened', modeBool);
     }
 
     $('.menu-link').on('click', function() {

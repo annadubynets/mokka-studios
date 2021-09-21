@@ -1511,6 +1511,10 @@ View Compiled Resources .text-description {
     width: 76vw;
   }
 }
+.menu-opened {
+  overflow-y: hidden;
+}
+
 body {
   font-family: "Raleway";
   background: #1B1B1B;
@@ -1902,6 +1906,10 @@ p {
     margin-bottom: 10px;
   }
 }
+.menu-opened {
+  overflow-y: initial;
+}
+
 @media (max-width: 1200px) {
   #menu-container {
     background: #1B1B1B;
@@ -1920,6 +1928,10 @@ p {
   .btn-menu span:before,
 .btn-menu span:after {
     background-color: #000000;
+  }
+
+  .menu-opened {
+    overflow-y: hidden;
   }
 }
 .navbar.fixed-top.scrolled {
