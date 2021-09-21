@@ -1217,8 +1217,9 @@ $speed: 50s;
         right: 0;
     }
     .hero-image {
-        background: url('../images/main-mobile.png');
+        background: url('../images/main-mobile.svg');
         background-repeat: no-repeat;
+        background-position: top;
     }
     .about {
         .about-image {
@@ -1252,8 +1253,9 @@ $speed: 50s;
 
 @media (max-width: 414px) {
     .hero-image {
-        background: url('../images/main-mobile.png');
+        background: url('../images/main-mobile.svg');
         background-repeat: no-repeat;
+        background-size: contain;
         width: 88vw;
     }
     .about {
