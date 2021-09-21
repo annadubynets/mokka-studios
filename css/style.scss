@@ -400,10 +400,13 @@ ul {
         font-size: 18px;
         color: rgba(48, 48, 48, 0.8);
     }
-    &:hover {
-        border: 1px solid transparent;
-        background: $white;
-        box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
+
+    &.hover-effect {
+        &:hover {
+            border: 1px solid transparent;
+            background: $white;
+            box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
+        }
     }
 }
 
@@ -435,9 +438,9 @@ ul {
 
 .product {
     .card {
-        &:hover {
-            box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
-        }
+        // &:hover {
+        //     box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
+        // }
         .product-card-img {
             min-height: 500px;
             object-fit: contain;
